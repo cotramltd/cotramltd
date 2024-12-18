@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rushaga Gorilla Neighbors Organisation</title>
+    <title>cotramltd</title>
     <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-OERcA2JDzIu8knoMR1zeflg9rQ9Y7q1m2wzWfFKNqKz8mG8D33z9p9FOEjrZDYgC" crossorigin="anonymous">
@@ -14,7 +14,7 @@
     <style>
         #map {
             width: 100%;
-            height: 250px;
+            height: 300px;
             background-color: #e9ecef; /* Placeholder style for map */
         }
     </style>
@@ -64,7 +64,7 @@
 
 
 </head>
-<body>
+<body style="background: black;">
     <!-- Navigation Bar -->
    <header style="position: relative;">
     <nav >
@@ -107,7 +107,7 @@
                 </div>
             </div>
             <div class="item">
-                <img src="image/we.png">
+                <img src="image/ZA.png">
                 <div class="content">
     <div class="author">EXPLORE OUR</div>
         <div class="title">CATERING</div>
@@ -122,7 +122,7 @@
 </div>
             </div>
             <div class="item">
-                <img src="image/33.jpg">
+                <img src="image/er.png">
                 <div class="content">
                    <div class="author">VISIT US</div>
         <div class="title">OUR LOCATION</div>
@@ -136,7 +136,7 @@
         </div>
                 </div>
             </div>
-            <div class="item">
+            <!-- <div class="item">
                 <img src="image/44.jpg">
                 <div class="content">
                     <div class="author">RELIABILITY</div>
@@ -150,7 +150,7 @@
             <button>CONTACT US</button>
         </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- list thumnail -->
         <div class="thumbnail">
@@ -187,7 +187,7 @@
                     </div>
                 </div>
             </div>
-            <div class="item">
+            <!-- <div class="item">
                 <img src="image/44.jpg">
                 <div class="content">
                     <div class="title">
@@ -197,7 +197,7 @@
                         Description
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!-- next prev -->
 
@@ -213,21 +213,22 @@
 <!-- About Us Section -->
 <section id="about" class="about-section">
     <div class="container">
-        <h1 style="text-align: center; margin-top: 1px;">ABOUT RUSHAGA GORILLA NEIGHBORS</h1>
+        <h1 style="text-align: center; margin-top: 1px; font-family: serif; color: #FFF;"><b>ABOUT COTRAM LIMITED</b> </h1><hr style="border: 1px solid #fff;">
         <div class="grid-container" style="background: transparent;">
             <!-- Left Section: Splash Image -->
             <div class="about-image">
                 <!-- Viewable Image -->
-                <img src="image/111.jpg" alt="Murchison Falls" class="img-fluid splash-img">
+                <img src="image/4.png" alt="Murchison Falls" class="img-fluid splash-img">
             </div>
             <!-- Right Section: About Us Content -->
             <div class="about-content">
                 
-                <p>
-                    Welcome to **Rushaga Gorilla Neighbors**, a non-profit organization dedicated to creating a positive impact in the Rushaga region of Uganda. Our mission is to provide essential support and services to both the local community and wildlife through education, conservation efforts, and promoting sustainable tourism.
-                </p>
-                <p>
-                    At **Rushaga Gorilla Neighbors**, we focus on a diverse range of activities aimed at preserving the environment, supporting vulnerable children and orphans, and fostering community development. Our main programs include the Batwa and Bakiga Experiences, which celebrate the rich traditions and cultures of the local people, as well as wildlife conservation efforts in collaboration with nearby protected areas.
+                <p style="color: #fff; font-family: serif; margin-right: 10px; margin-left: 10px;">
+                    Cotram Limited is a versatile import and export company strategically located in Kireka along the Kampala-Jinja highway. Specializing in international trade, we connect local markets with global suppliers and customers, ensuring seamless logistics and high-quality products.
+
+In addition to our import and export services, Cotram Limited offers exceptional catering solutions tailored to meet diverse needs, from corporate events to private gatherings. With a commitment to excellence, reliability, and customer satisfaction, we are your trusted partner for trade and hospitality services in Uganda and beyond.
+
+Visit us in Kireka for professional and dependable services that drive success.
                 </p>
              
             </div>
@@ -272,6 +273,12 @@
             grid-template-columns: 1fr;
         }
     }
+    .service-item{
+    	background: #000;
+    	border-radius: 7px;
+    	color: #fff;
+    	font-family: serif;
+    }
 </style>
 
 
@@ -280,68 +287,31 @@
 
     <section class="services">
         <div class="container">
-            <h2>Our Services</h2>
+            <div style="padding: 0px; background: #000; margin-bottom: 0px; padding-bottom:0px;">
+            	<h2 style="color: #fff; padding: 2px;font-family: serif; "><b>OUR SERVICES</b></h2>
+            </div>
             <div class="service-items">
                 <div class="service-item">
-                    <img src="service1.jpg" alt="Service 1">
-                    <h3>Freight Shipping</h3>
+                    <img src="image/qq.png" alt="Service 1">
+                    <h3>Export Services</h3>
                     <p>Reliable and efficient freight shipping solutions tailored to your needs.</p>
+                    <button class="read-more-btn" data-target="#birdwatching-modal" style="background: #cb8e0b;">Read More</button>
                 </div>
                 <div class="service-item">
-                    <img src="service2.jpg" alt="Service 2">
-                    <h3>Warehousing</h3>
+                    <img src="image/qw.png" alt="Service 2">
+                    <h3>Catering Services</h3>
                     <p>State-of-the-art warehousing services for secure storage and inventory management.</p>
+                    <button class="read-more-btn" data-target="#woodcarving-modal" style="background: #cb8e0b;">Read More</button>
                 </div>
                 <div class="service-item">
-                    <img src="service3.jpg" alt="Service 3">
-                    <h3>Custom Logistics</h3>
+                    <img src="image/df.png" alt="Service 3">
+                    <h3>Import Services</h3>
                     <p>Personalized logistics services to streamline your operations.</p>
+                    <button class="read-more-btn" data-target="#batwa-modal" style="background: #cb8e0b;">Read More</button>
                 </div>
             </div>
         </div>
     </section>
-
-
-
-    <!-- Tours Section -->
-    <section id="tours">
-    <h2>Our Activities</h2>
-    <div class="tour-list">
-        <div class="tour-item">
-            <h3>Batwa Experience</h3>
-            <p>Learn the traditions of the Batwa people, their rich culture, and lifestyle.</p>
-            <button class="read-more-btn" data-target="#batwa-modal">Read More</button>
-        </div>
-        <div class="tour-item">
-            <h3>Bakiga Experience</h3>
-            <p>Experience local lunch and weaving demonstrations with the Bakiga community.</p>
-            <button class="read-more-btn" data-target="#bakiga-modal">Read More</button>
-        </div>
-        <div class="tour-item">
-            <h3>Birdwatching</h3>
-            <p>Enjoy the tranquility of birdwatching in the region's rich biodiversity.</p>
-            <button class="read-more-btn" data-target="#birdwatching-modal">Read More</button>
-        </div>
-    </div>
-    
-    <div class="tour-list" style="margin-top: 10px;">
-        <div class="tour-item">
-            <h3>Forest Nature Walks</h3>
-            <p>Explore the beauty of the forest with guided nature walks.</p>
-            <button class="read-more-btn" data-target="#forest-modal">Read More</button>
-        </div>
-        <div class="tour-item">
-            <h3>Woodcarving Experience</h3>
-            <p>Admire and learn local craftsmanship with our woodcarving workshops.</p>
-            <button class="read-more-btn" data-target="#woodcarving-modal">Read More</button>
-        </div>
-        <div class="tour-item">
-            <h3>Child Entertainment</h3>
-            <p>Engage children with entertaining activities and programs.</p>
-            <button class="read-more-btn" data-target="#child-modal">Read More</button>
-        </div>
-    </div>
-</section>
 
 <!-- Modals -->
 <div id="batwa-modal" class="modal">
@@ -357,17 +327,6 @@
     </div>
 </div>
 
-<div id="bakiga-modal" class="modal">
-    <div class="modal-content">
-        <span class="close-btn">&times;</span>
-        <h3>Bakiga Experience</h3>
-        <p>Experience local lunch and weaving demonstrations with the Bakiga community. Learn traditional skills while enjoying a delicious local meal.</p>
-        <div class="photo-grid">
-            <img src="bakiga-1.jpg" alt="Bakiga Experience Image 1">
-            <img src="bakiga-2.jpg" alt="Bakiga Experience Image 2">
-            <img src="bakiga-3.jpg" alt="Bakiga Experience Image 3">
-        </div>
-    </div>
 </div>
 
 <div id="birdwatching-modal" class="modal">
@@ -531,23 +490,25 @@
 
 
     <!-- Contact Form Section -->
-   <section id="contact" class="py-5">
+   <section id="contact" class="py-5" style="background: #000; color: #fff;">
+   	<h2><b>CONTACT US</b></h2><hr>
         <div class="container">
+
             <div class="row">
                 <!-- Contact Info and Map -->
                 <div class="col-lg-6 mb-4">
                     <div class="mb-4">
-                        <h2>Contact Information</h2>
-                        <p><strong>Address:</strong> 123 Main Street, Cityville, Country</p>
-                        <p><strong>Phone:</strong> +123 456 7890</p>
-                        <p><strong>Email:</strong> contact@example.com</p>
+                        
+                        <p><strong>Address:</strong> Kampala-Jinja road, Kireka, Uganda</p>
+                        <p><strong>Phone:</strong> +256700 741974</p>
+                        <p><strong>Email:</strong> cotramlimited9@gmail.com</p>
                     </div>
-                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.980020509447!2d32.640612232415634!3d0.34734319418912873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db90006a3c007%3A0x98cd327441105abe!2sCOTRAM%20LIMITED!5e0!3m2!1sen!2sug!4v1734372292437!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.980020509447!2d32.640612232415634!3d0.34734319418912873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db90006a3c007%3A0x98cd327441105abe!2sCOTRAM%20LIMITED!5e0!3m2!1sen!2sug!4v1734372292437!5m2!1sen!2sug" width="600" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 <!-- Contact Form -->
                 <div class="col-lg-6">
-                    <h2>Contact Us</h2>
+                    
                     <form>
                         <div class="mb-3">
                             <label for="name" class="form-label">Name</label>
@@ -561,7 +522,7 @@
                             <label for="message" class="form-label">Message</label>
                             <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn" style="background: #cb8e0b;">Submit</button>
                     </form>
                 </div>
             </div>
@@ -570,8 +531,12 @@
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 Murchison Falls National Park. All rights reserved.</p>
+        <p>&copy; <span id="currentYear"></span> Cotram Limited. All rights reserved.</p>
     </footer>
+    <script>
+        // Set the current year dynamically
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
 
     <script src="app.js"></script>
     <script type="text/javascript">
