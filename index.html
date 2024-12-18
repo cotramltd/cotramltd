@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushaga Gorilla Neighbors Organisation</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-OERcA2JDzIu8knoMR1zeflg9rQ9Y7q1m2wzWfFKNqKz8mG8D33z9p9FOEjrZDYgC" crossorigin="anonymous">
+<!-- <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap/css/bootstrap.min.css"> -->
+<!-- jQuery CDN -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #map {
+            width: 100%;
+            height: 250px;
+            background-color: #e9ecef; /* Placeholder style for map */
+        }
+    </style>
+<style type="text/css">
+    
+        .services {
+            padding: 50px 20px;
+            background: #f9f9f9;
+        }
+
+        .services .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 2rem;
+        }
+
+        .service-items {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .service-item {
+            background: white;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            flex: 1 1 calc(33% - 20px);
+            margin: 10px;
+            text-align: center;
+        }
+
+        .service-item img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+
+        .service-item h3 {
+            margin-bottom: 1rem;
+        }
+</style>
+
+
+
+</head>
+<body>
+    <!-- Navigation Bar -->
+   <header style="position: relative;">
+    <nav >
+        <div class="logo">
+            <a href="#"> <img src="IMG-20241007-WA0000.png" style="width: 120px; position: absolute; margin-top: 3px;" ></a>
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#about">ABOUT US</a></li>
+            <li><a href="#tours">ACTIVITIES</a></li>
+            <li><a href="#">GALLERY</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <!-- carousel -->
+    <div class="carousel">
+        <!-- list item -->
+        <div class="list">
+            <div class="item">
+                <img src="image/11.jpg">
+                <div class="content">
+                    <div class="author">WELCOME TO</div>
+<div class="title">RUSHAGA GORILLA</div>
+<div class="topic">NEIGHBORS</div>
+<div class="des">
+    Rushaga Gorilla Neighbors is committed to educating needy children and orphans, fostering a brighter future through access to quality education. Our mission extends to conserving nature and promoting wildlife, ensuring the preservation of our environment for generations to come. We strive to create a harmonious balance between human development and the protection of biodiversity, cultivating a community where people and nature thrive together.
+</div>
+
+                    <div class="buttons">
+                        <button>ABOUT US</button>
+                        <button>ACTIVITIES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/22.jpg">
+                <div class="content">
+    <div class="author">EXPLORE WITH US</div>
+    <div class="title">OUR</div>
+    <div class="topic">ACTIVITIES</div>
+    <div class="des">
+        Discover unique and enriching experiences with Rushaga Gorilla Neighbors. Immerse yourself in the Batwa Experience, learning the traditions of the Batwa people. Enjoy the Bakiga Experience, featuring local lunch and weaving demonstrations. Delight in Child Entertainment programs designed to bring joy and laughter to young ones. Embrace the tranquility of Birdwatching Experience and Forest Nature Walks, marveling at the region's biodiversity. Witness the craftsmanship of the Woodcarving Experience, celebrating local artistry and culture. Every activity connects you to nature, wildlife, and the vibrant community.
+    </div>
+    <div class="buttons">
+        <button>SEE MORE</button>
+        <button>SUBSCRIBE</button>
+    </div>
+</div>
+            </div>
+            <div class="item">
+                <img src="image/33.jpg">
+                <div class="content">
+                    <div class="author">VIST US</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/44.jpg">
+                <div class="content">
+                    <div class="author">LUNDEV</div>
+                    <div class="title">DESIGN SLIDER</div>
+                    <div class="topic">ANIMAL</div>
+                    <div class="des">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sequi, rem magnam nesciunt minima placeat, itaque eum neque officiis unde, eaque optio ratione aliquid assumenda facere ab et quasi ducimus aut doloribus non numquam. Explicabo, laboriosam nisi reprehenderit tempora at laborum natus unde. Ut, exercitationem eum aperiam illo illum laudantium?
+                    </div>
+                    <div class="buttons">
+                        <button>SEE MORE</button>
+                        <button>SUBSCRIBE</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- list thumnail -->
+        <div class="thumbnail">
+            <div class="item">
+                <img src="image/11.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/22.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/33.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="image/44.jpg">
+                <div class="content">
+                    <div class="title">
+                        Name Slider
+                    </div>
+                    <div class="description">
+                        Description
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- next prev -->
+
+        <div class="arrows">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <!-- time running -->
+        <div class="time"></div>
+    </div>
+
+    <!-- About Us Section -->
+<!-- About Us Section -->
+<section id="about" class="about-section">
+    <div class="container">
+        <h1 style="text-align: center; margin-top: 1px;">ABOUT RUSHAGA GORILLA NEIGHBORS</h1>
+        <div class="grid-container">
+            <!-- Left Section: Splash Image -->
+            <div class="about-image">
+                <!-- Viewable Image -->
+                <img src="image/111.jpg" alt="Murchison Falls" class="img-fluid splash-img">
+            </div>
+            <!-- Right Section: About Us Content -->
+            <div class="about-content">
+                
+                <p>
+                    Welcome to **Rushaga Gorilla Neighbors**, a non-profit organization dedicated to creating a positive impact in the Rushaga region of Uganda. Our mission is to provide essential support and services to both the local community and wildlife through education, conservation efforts, and promoting sustainable tourism.
+                </p>
+                <p>
+                    At **Rushaga Gorilla Neighbors**, we focus on a diverse range of activities aimed at preserving the environment, supporting vulnerable children and orphans, and fostering community development. Our main programs include the Batwa and Bakiga Experiences, which celebrate the rich traditions and cultures of the local people, as well as wildlife conservation efforts in collaboration with nearby protected areas.
+                </p>
+                <p>
+                    We believe in the importance of balancing community development with nature conservation. Our activities are designed to raise awareness about wildlife protection while simultaneously providing opportunities for sustainable livelihoods for local communities. Whether you're looking to learn about the traditions of the Batwa people, take part in a guided forest walk, or enjoy a unique cultural experience, **Rushaga Gorilla Neighbors** offers something for everyone.
+                </p>
+                <p>
+                    Through our programs, we aim to create lasting changes that not only benefit local communities but also protect the region's biodiversity for future generations. Join us in our efforts to conserve nature and support sustainable development in Uganda's beautiful Rushaga region.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .about-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    .about-content h2 {
+        font-size: 2em;
+        margin-bottom: 15px;
+    }
+
+    .about-content p {
+        font-size: 1.1em;
+        line-height: 1.6;
+    }
+
+    /* Responsive design for smaller screens */
+    @media (max-width: 768px) {
+        .grid-container {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+
+
+
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="service1.jpg" alt="Service 1">
+                    <h3>Freight Shipping</h3>
+                    <p>Reliable and efficient freight shipping solutions tailored to your needs.</p>
+                </div>
+                <div class="service-item">
+                    <img src="service2.jpg" alt="Service 2">
+                    <h3>Warehousing</h3>
+                    <p>State-of-the-art warehousing services for secure storage and inventory management.</p>
+                </div>
+                <div class="service-item">
+                    <img src="service3.jpg" alt="Service 3">
+                    <h3>Custom Logistics</h3>
+                    <p>Personalized logistics services to streamline your operations.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Tours Section -->
+    <section id="tours">
+    <h2>Our Activities</h2>
+    <div class="tour-list">
+        <div class="tour-item">
+            <h3>Batwa Experience</h3>
+            <p>Learn the traditions of the Batwa people, their rich culture, and lifestyle.</p>
+            <button class="read-more-btn" data-target="#batwa-modal">Read More</button>
+        </div>
+        <div class="tour-item">
+            <h3>Bakiga Experience</h3>
+            <p>Experience local lunch and weaving demonstrations with the Bakiga community.</p>
+            <button class="read-more-btn" data-target="#bakiga-modal">Read More</button>
+        </div>
+        <div class="tour-item">
+            <h3>Birdwatching</h3>
+            <p>Enjoy the tranquility of birdwatching in the region's rich biodiversity.</p>
+            <button class="read-more-btn" data-target="#birdwatching-modal">Read More</button>
+        </div>
+    </div>
+    
+    <div class="tour-list" style="margin-top: 10px;">
+        <div class="tour-item">
+            <h3>Forest Nature Walks</h3>
+            <p>Explore the beauty of the forest with guided nature walks.</p>
+            <button class="read-more-btn" data-target="#forest-modal">Read More</button>
+        </div>
+        <div class="tour-item">
+            <h3>Woodcarving Experience</h3>
+            <p>Admire and learn local craftsmanship with our woodcarving workshops.</p>
+            <button class="read-more-btn" data-target="#woodcarving-modal">Read More</button>
+        </div>
+        <div class="tour-item">
+            <h3>Child Entertainment</h3>
+            <p>Engage children with entertaining activities and programs.</p>
+            <button class="read-more-btn" data-target="#child-modal">Read More</button>
+        </div>
+    </div>
+</section>
+
+<!-- Modals -->
+<div id="batwa-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Batwa Experience</h3>
+        <p>Learn the traditions of the Batwa people, their rich culture, and lifestyle. Explore their unique way of life and how they interact with nature.</p>
+        <div class="photo-grid">
+            <img src="batwa-1.jpg" alt="Batwa Experience Image 1">
+            <img src="batwa-2.jpg" alt="Batwa Experience Image 2">
+            <img src="batwa-3.jpg" alt="Batwa Experience Image 3">
+        </div>
+    </div>
+</div>
+
+<div id="bakiga-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Bakiga Experience</h3>
+        <p>Experience local lunch and weaving demonstrations with the Bakiga community. Learn traditional skills while enjoying a delicious local meal.</p>
+        <div class="photo-grid">
+            <img src="bakiga-1.jpg" alt="Bakiga Experience Image 1">
+            <img src="bakiga-2.jpg" alt="Bakiga Experience Image 2">
+            <img src="bakiga-3.jpg" alt="Bakiga Experience Image 3">
+        </div>
+    </div>
+</div>
+
+<div id="birdwatching-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Birdwatching</h3>
+        <p>Enjoy the tranquility of birdwatching in the region's rich biodiversity. Our guided tours will take you through the best spots to spot rare and beautiful birds.</p>
+        <div class="photo-grid">
+            <img src="birdwatching-1.jpg" alt="Birdwatching Image 1">
+            <img src="birdwatching-2.jpg" alt="Birdwatching Image 2">
+            <img src="birdwatching-3.jpg" alt="Birdwatching Image 3">
+        </div>
+    </div>
+</div>
+
+<div id="forest-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Forest Nature Walks</h3>
+        <p>Explore the beauty of the forest with guided nature walks. Discover the flora and fauna while learning about the ecosystem.</p>
+        <div class="photo-grid">
+            <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+        </div>
+    </div>
+</div>
+
+<div id="woodcarving-modal" class="modal" style="color: #000;">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Woodcarving Experience</h3>
+        <p>Admire and learn local craftsmanship with our woodcarving workshops. Discover the intricate process of transforming wood into art.</p>
+        <div class="photo-grid">
+            <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+        </div>
+    </div>
+</div>
+
+<div id="child-modal" class="modal" style="color: #000;">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h3>Child Entertainment</h3>
+        <p>Engage children with entertaining activities and programs. Our activities include games, storytelling, and crafts designed to bring joy and learning.</p>
+        <div class="photo-grid">
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+    <img src="https://www.w3schools.com/w3images/fjords.jpg" alt="Child Entertainment Image 1">
+    <img src="https://www.w3schools.com/w3images/lights.jpg" alt="Child Entertainment Image 2">
+    <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="Child Entertainment Image 3">
+
+</div>
+
+        </div>
+    </div>
+</div>
+
+<!-- Styles -->
+<style>
+    .read-more-btn {
+        margin-top: 10px;
+        padding: 5px 10px;
+        background-color: green;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    .read-more-btn:hover {
+        background-color: #003f7f;
+    }
+    
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0,0,0,0.4);
+    }
+    
+
+    .close-btn {
+        color: #aaa;
+        font-size: 28px;
+        font-weight: bold;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+    }
+    
+    .close-btn:hover,
+    .close-btn:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    
+.modal-content {
+    background-color: #fff;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 100%; /* Adjust width to make it fill more of the modal's area */
+    max-width: 1000px; /* Optional: limit max width if needed */
+}
+
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px;
+    width: 100%; /* Ensures the grid covers full modal width */
+}
+
+.photo-grid img {
+    width: 100%; /* Ensure images stretch to fill their grid cells */
+    height: auto;
+    border-radius: 8px;
+}
+
+</style>
+
+<!-- Scripts -->
+<script>
+    const modalBtns = document.querySelectorAll('.read-more-btn');
+    const modals = document.querySelectorAll('.modal');
+    const closeBtns = document.querySelectorAll('.close-btn');
+
+    modalBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const target = document.querySelector(this.getAttribute('data-target'));
+            target.style.display = 'block';
+        });
+    });
+
+    closeBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            const modal = this.closest('.modal');
+            modal.style.display = 'none';
+        });
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target.classList.contains('modal')) {
+            event.target.style.display = 'none';
+        }
+    });
+</script>
+
+
+
+    <!-- Contact Form Section -->
+   <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Contact Info and Map -->
+                <div class="col-lg-6 mb-4">
+                    <div class="mb-4">
+                        <h2>Contact Information</h2>
+                        <p><strong>Address:</strong> 123 Main Street, Cityville, Country</p>
+                        <p><strong>Phone:</strong> +123 456 7890</p>
+                        <p><strong>Email:</strong> contact@example.com</p>
+                    </div>
+                    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15958.980020509447!2d32.640612232415634!3d0.34734319418912873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177db90006a3c007%3A0x98cd327441105abe!2sCOTRAM%20LIMITED!5e0!3m2!1sen!2sug!4v1734372292437!5m2!1sen!2sug" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-lg-6">
+                    <h2>Contact Us</h2>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Murchison Falls National Park. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+    <script type="text/javascript">
+        const mobileMenu = document.getElementById('mobile-menu');
+const navLinks = document.querySelector('.nav-links');
+
+mobileMenu.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
