@@ -97,8 +97,8 @@ header a{
     gap: 20px;
 }
 .thumbnail .item{
-    width: 150px;
-    height: 70px;
+    width: 120px;
+    height: 170px;
     flex-shrink: 0;
     position: relative;
 }
